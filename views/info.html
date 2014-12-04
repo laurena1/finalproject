@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Google Authentication</title>
+</head>
+
+<body>
+    <h2>Google Authentication Info</h2>
+    <p>ID:
+        <%=u ser.identifier %>
+    </p>
+    <p>Name:
+        <%=u ser.displayName %>
+    </p>
+    <p>Email:
+        <%=u ser.emails[0].value %>
+    </p>
+    <a href="/logout">Logout</a>
+</body>
+
+</html>

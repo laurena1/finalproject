@@ -1,0 +1,20 @@
+{
+  "name": "Adding_User_Accounts",
+  "description": "A package containing chapter 26 code from the NMA book",
+  "author": "Dr. Jeffry Babb <jbabb@wtamu.edu>",
+  "version": "1.0.0",
+  "dependencies": {
+    "mongodb": "latest",
+    "mongoose": "latest",
+    "connect-mongo": "latest",
+    "express": "latest",
+    "ejs": "latest",
+    "basic-auth-connect": "latest",
+    "body-parser": "latest",
+    "cookie-parser": "latest",
+    "cookie-session": "latest",
+    "express-session": "latest",
+    "serve-static": "latest"
+  },
+  "engine": "node >= 0.10.33"
+}
